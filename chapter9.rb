@@ -5,6 +5,7 @@ module ChocolateChip
   end
 end
 
+
 class Cookies
   include ChocolateChip
   def initialize(name)
@@ -16,8 +17,8 @@ class Cookies
   end
 end
 
-cookie = Cookies.new("普通のクッキー")
-p cookie.chocolate_chip
+cookie = Cookies.new("クッキーだけど？？ ")
+puts cookie.chocolate_chip
 
 class Drink
   include ChocolateChip
@@ -43,6 +44,15 @@ end
 puts EspressoShot::Price
 
 #9-3
+#module_method
+module WhippedCream
+  def self.info
+    "トッピング用ホイップクリーム"
+  end
+end
+
+
+#main class
 require_relative "module_method"
 class Drink
   extend WhippedCream
