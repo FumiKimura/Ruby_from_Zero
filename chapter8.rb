@@ -1,15 +1,15 @@
 #8-1
-p ({:coffee => 300, :caffe_latte => 400}).class
+puts ({:coffee => 300, :caffe_latte => 400}).class
 
 emptyHash = Hash.new
-p emptyHash
+puts emptyHash
 
 #8-2
 class CaffeLatte
 end
 
 caffe = CaffeLatte.new
-p caffe.class
+puts caffe.class
 
 #8-3
 class Item
@@ -19,7 +19,7 @@ class Item
 end
 
 item = Item.new
-p item.name
+puts item.name
 
 #8-4
 class Item
@@ -33,13 +33,13 @@ class Item
 end
 
 cake.itemName("cake is チーズケーキ")
-p cake.name
+puts cake.name
 
 
 #8-5
 class Item
   def initialize
-    p "商品を扱うオブジェクト"
+    puts "商品を扱うオブジェクト"
   end
 end
 
@@ -48,7 +48,7 @@ item = Item.new
 class Item
   def initialize(text)
     @name = text
-    p "商品を扱うオブジェクト"
+    puts "商品を扱うオブジェクト"
   end
 
   def name
@@ -58,8 +58,8 @@ end
 
 muffin = new.Item("マフィン")
 scorn = new.Item("スコーン")
-p muffin.name
-p scorn.name
+puts muffin.name
+puts scorn.name
 
 #8-6
 class Drink
@@ -83,4 +83,4 @@ end
 
 food = Food.new
 food.name=("チーズケーキ")
-p food.name
+puts food.name
