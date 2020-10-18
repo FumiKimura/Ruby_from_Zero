@@ -25,4 +25,7 @@ sum = 0
 end
 p sum
 
-p drink = []
+p drinks = []
+# drinks.each do |drink|
+  #puts drink
+#end
