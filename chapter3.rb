@@ -4,6 +4,11 @@ if a < 365
   puts "a is smaller than 365"
 end
 
+=begin
+best answer
+p a < 365
+=end
+
 if (1 + 1) == a
   puts "a equals 2"
 end
@@ -29,14 +34,6 @@ else
 end
 
 #3-4
-wallet = 100
-if wallet >= 120
-  puts "lets buy juice"
-else
-  puts "There are many happinesses money cannot buy"
-end
-
-#3-4
 x = 200
 if x <= 0 || x >= 100
   puts "out of range"
@@ -53,7 +50,7 @@ end
 season = "spring"
 case season
 when "spring"
-  puts "lets go buy icecream"
+  puts "lets go buy ice cream"
 when "summer"
   puts "lets buy shaved ice"
 else
@@ -68,6 +65,8 @@ end
 end
   puts "フラペチーノ"
 
+=begin
+best answer
   2.times do
     puts "カフェラテ"
       2.times do
@@ -75,3 +74,4 @@ end
       end
   end
     puts "フラペチーノ"
+=end
