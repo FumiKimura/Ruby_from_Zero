@@ -25,4 +25,4 @@ sum = 0
 end
 p sum
 
-p []
+p drink = []
